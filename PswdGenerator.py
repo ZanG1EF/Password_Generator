@@ -21,7 +21,7 @@ while True:
     #Input that asks to the user if he wants to generate a pswd or to quit  
     if choice == "G" or choice == "g":
         pswd = randomchar1 + randomchar3 + randomchar4 + randomchar5 + randomchar6 + randomchar7 + randomchar8 + randomchar2 + randomchar9 + randomchar10 
-        #Creation of the variable that will combinate the 10 characters
+        #Creation of the variable that will combine the 10 characters
         print ("The Generate Password is : ", pswd)
         #Print of the generated password
         break
@@ -30,4 +30,5 @@ while True:
     else:
         print("Incorrect Choice !")
         #Error management
+
 
