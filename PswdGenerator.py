@@ -28,7 +28,8 @@ while True:
     elif choice == "Q" or choice == "q":
         break
     else:
-        print("Incorrect Choice !")
+        print("Incorrect Option !")
         #Error management
+
 
 
